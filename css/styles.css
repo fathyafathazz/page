@@ -204,3 +204,25 @@ h1 {
     height: 60vh; /* Mengatur tinggi gambar 60% dari tinggi layar */
     object-fit: cover;
 }
+.card {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 10px;
+}
+
+.card-title {
+    color: #2b2b2b;
+    font-family: 'Merriweather', serif;
+}
+
+.price {
+    color: #6b4f32;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: #6b4f32;
+    border: none;
+    font-weight: bold;
+}
+
