@@ -1,0 +1,206 @@
+/* Warna Dasar */
+:root {
+    --gold: #523b0b; /* Warna emas dari logo */
+    --dark-brown: #2E2E2C; /* Warna cokelat tua */
+    --light-cream: #E9E3D5; /* Warna krem terang */
+    --off-white: #F5F5F2; /* Warna putih gading untuk background */
+    --accent-light-gold: #916b12; /* Warna emas terang untuk aksen */
+}
+
+/* General Styles */
+body {
+    font-family: Arial, "Signika", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--dark-brown);
+    background-color: var(--off-white); /* Latar belakang terang */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Top Bar */
+.top-bar {
+    background-color: var(--dark-brown);
+    color: var(--light-cream);
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .top-bar {
+        display: none;
+    }
+}
+
+/* Navbar */
+header {
+    background-color: var(--gold);
+    color: var(--dark-brown);
+}
+
+.navbar-brand {
+    font-family: "Signika", Arial, sans-serif;
+    color: var(--dark-brown);
+}
+
+.navbar-nav {
+    color: var(--dark-brown);
+}
+
+.dropdown-toggle {
+    font-size: 20px;
+}
+
+.navbar .dropdown-toggle#kategoriDropdown + .dropdown-menu {
+    background-color: var(--dark-brown);
+    color: var(--light-cream);
+    border: none;
+}
+
+.dropdown-menu .dropdown-item {
+    font-size: 14px;
+    padding: 10px 15px;
+    margin-right: 8px;
+    color: var(--light-cream);
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: var(--accent-light-gold); /* Warna hover terang */
+    color: var(--dark-brown);
+}
+
+.navbar .search-form {
+    margin-left: 0px;
+    width: 500px;
+}
+
+.navbar .search-form .btn {
+    color: var(--dark-brown);
+    background-color: var(--light-cream); /* Tombol pencarian lebih terang */
+}
+
+.navbar .search-form .btn:hover {
+    background-color: var(--accent-light-gold); /* Hover tombol pencarian */
+}
+
+/* Tombol Daftar */
+.daftar {
+    background-color: var(--dark-brown);
+    color: var(--light-cream);
+    padding: 8px 20px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.daftar:hover {
+    background-color: var(--light-cream);
+    color: var(--dark-brown);
+}
+
+/* Tombol Masuk */
+.masuk {
+    background-color: var(--gold);
+    color: var(--dark-brown);
+    padding: 8px 20px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.masuk:hover {
+    background-color: var(--light-cream);
+    color: var(--gold);
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+}
+
+.slider {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Footer */
+footer {
+    background-color: var(--dark-brown);
+    color: var(--light-cream);
+    text-align: center;
+    padding: 20px;
+}
+
+section.bg-light h2 {
+    color: var(--dark-brown);
+}
+
+.text-highlight {
+    color: var(--gold);
+    text-align: justify;
+}
+
+h1 {
+    color: var(--gold);
+    text-align: center;
+    font-family: "Signika", Arial, sans-serif;
+}
+
+.about-title {
+    color: var(--dark-brown);
+    text-align: center;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.col-md-6 img {
+    max-width: 100%;
+    height: auto;
+    min-height: 250px;
+    object-fit: cover;
+}
+
+.small-img {
+    max-width: 50px;
+    height: auto;
+}
+
+.logo {
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+.tentang {
+    background-image: linear-gradient(to bottom, var(--accent-light-gold), var(--off-white));
+    font-family: "Signika", Arial, sans-serif;
+}
+
+.text-highlight {
+    color: var(--dark-brown);
+    font-weight: medium;
+}
+#heroCarousel .carousel-inner .carousel-item img {
+    height: 60vh; /* Mengatur tinggi gambar 60% dari tinggi layar */
+    object-fit: cover;
+}
