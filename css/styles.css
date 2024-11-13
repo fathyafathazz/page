@@ -24,6 +24,7 @@ header .logo {
     font-size: 24px;
     font-weight: bold;
     color: #805700;
+    font-family: 'Signika', Arial, sans-serif;
 }
 
 header nav ul {
@@ -194,7 +195,152 @@ header .btn-quote:hover {
     color: #2fa45b;
     font-weight: bold;
 }
+/* Section Styling */
+.product-section {
+    background-color: #f9f8f6;
+    padding: 40px 20px;
+    text-align:left;
+}
 
+.product-section h1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #4a3c31;
+    text-transform: uppercase;
+}
+
+/* Category Tabs Styling */
+.category-tabs {
+    margin-bottom: 30px;
+}
+
+.category-tabs .tab {
+    background-color: #a9825c;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    margin: 0 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.category-tabs .tab:hover {
+    background-color: #805700;
+}
+
+/* General Section Styling */
+.product-section {
+    background-color: #f9f8f6;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.product-section h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #4a3c31;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* General Section Styling */
+.product-section {
+    background-color: #f9f8f6;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.product-section h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #4a3c31;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Product Grid Styling */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: start;
+}
+
+/* Image Styling */
+.product-image img {
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.product-image img:hover {
+    transform: scale(1.05);
+}
+
+/* Product Info Styling */
+.product-info h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4a3c31;
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+
+.product-info p {
+    font-size: 14px;
+    color: #7d6e64;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #a9825c;
+    font-weight: bold;
+    font-size: 14px;
+    border: 1px solid #a9825c;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.read-more:hover {
+    background-color: #a9825c;
+    color: white;
+}
+
+/* See More Button */
+.see-more button {
+    margin-top: 40px;
+    background-color: #a9825c;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.see-more button:hover {
+    background-color: #805700;
+    transform: scale(1.05);
+}
 
 
 
